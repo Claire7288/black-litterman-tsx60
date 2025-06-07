@@ -54,14 +54,8 @@ Using these views, we generate three optimized portfolios:
 ---
 
 ## 📁 Project Structure
-├── src/
-│   ├── scrape_tsx60_tickers.py    # Web scraping from Globe and Mail
-│   └── black_litterman_model.py   # Data download, modeling, visualization
-├── notebooks/
-│   └── walkthrough.ipynb          # Step-by-step notebook version
-├── data/                          # Saved or shared price/cap data
-├── plots/                         # Output charts and heatmaps
-└── README.md
+scrape_tsx60_tickers.py    # Web scraping from Globe and Mail
+black_litterman_model.py   # Data download, modeling, visualization
 
 ---
 
