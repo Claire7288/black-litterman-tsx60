@@ -54,8 +54,9 @@ Using these views, we generate three optimized portfolios:
 ---
 
 ## Project Structure
-scrape_tsx60_tickers.py    # Web scraping from Globe and Mail
-black_litterman_model.py   # Data download, modeling, visualization
+scrape_tsx60_tickers.py - Web scraping from Globe and Mail
+
+black_litterman_model.py - Data download, modeling, visualization
 
 ---
 
