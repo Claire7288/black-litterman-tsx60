@@ -4,7 +4,7 @@ This project applies the Black-Litterman model to the Canadian S&P/TSX 60 index 
 
 ## Features
 
-- Web scraping S&P/TSX 60 constituents (from the Globe and Mail website(non-Wikipedia source): https://www.theglobeandmail.com/investing/markets/indices/TXSX/components/)
+- Web scraping S&P/TSX 60 constituents from the Globe and Mail website(non-Wikipedia source): https://www.theglobeandmail.com/investing/markets/indices/TXSX/components/
 - Historical data download via Bloomberg API (2020–2025)
 - Correlation & covariance matrix generation
 - Market-cap weighted portfolio construction
