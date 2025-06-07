@@ -4,7 +4,7 @@ This project applies the Black-Litterman model to the Canadian S&P/TSX 60 index 
 
 ## Features
 
-- Web scraping S&P/TSX 60 constituents (non-Wikipedia source)
+- Web scraping S&P/TSX 60 constituents (from the Globe and Mail website: https://www.theglobeandmail.com/investing/markets/indices/TXSX/components/)(non-Wikipedia source)
 - Historical data download via Bloomberg API (2020–2025)
 - Correlation & covariance matrix generation
 - Market-cap weighted portfolio construction
@@ -14,16 +14,22 @@ This project applies the Black-Litterman model to the Canadian S&P/TSX 60 index 
 
 ## Active Views Modeled
 
-1. Shopify to outperform Rogers by 5%
-2. Loblaw expected to return 1% more than its 5-year average
+assume that you are a portfolio manager that has the following active views:
+
+1.	Shopify will outperform Rogers by 5%.
+2.	Return on Loblaw Companies Limited will be 1% higher than its average over the most recent 5-year period (the May 16, 2020 - May 16, 2025)
+
+Calculate the Black-Litterman optimal portfolios:
+1.	Using the first view only.
+2.	Using the second view only.
+3.	Using both views.
 
 ## Tools & Libraries
 
 - Python 3.x
-- Bloomberg Python API (`blpapi`)
-- `pandas`, `numpy`, `matplotlib`, `seaborn`
-- `cvxpy` or `pyportfolioopt` for optimization
-- `requests`, `bs4` for web scraping
+- Bloomberg Python API (`blpapi`, `xbbg`)
+- `pandas`, `numpy`, `matplotlib`, `seaborn`, `yfinance`
+- `requests`, `bs4`, `selenium` for web scraping
 
 ## Structure
 
