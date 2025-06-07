@@ -68,12 +68,6 @@ black_litterman_model.py   # Data download, modeling, visualization
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Contributions
 
 Pull requests are welcome! If you want to add new views, extend the model, or enhance visuals, feel free to contribute.
